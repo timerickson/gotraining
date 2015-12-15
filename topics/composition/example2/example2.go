@@ -23,7 +23,7 @@ type NailDriver interface {
 	DriveNail(nailSupply *int, b *Board)
 }
 
-// NailPuller represents behavior to remove nails into a board.
+// NailPuller represents behavior to remove nails from a board.
 type NailPuller interface {
 	PullNail(nailSupply *int, b *Board)
 }
